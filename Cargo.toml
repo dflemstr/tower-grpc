@@ -17,6 +17,7 @@ members = [
   "tower-grpc-build",
   "tower-grpc-examples",
   "tower-grpc-interop",
+  "tower-grpc-web",
 
   # For tests
   "tests/multifile",

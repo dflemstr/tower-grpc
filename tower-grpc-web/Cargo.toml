@@ -1,0 +1,17 @@
+[package]
+authors = ["David Flemström <david.flemstrom@gmail.com>"]
+name = "tower-grpc-web"
+version = "0.1.0"
+
+[dependencies]
+futures = "0.1"
+http = "0.1"
+
+[dependencies.tower]
+git = "https://github.com/tower-rs/tower"
+
+[dependencies.tower-grpc]
+path = "../"
+
+[dependencies.tower-h2]
+git = "https://github.com/tower-rs/tower-h2"
